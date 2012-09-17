@@ -7,7 +7,7 @@
 
 user = ENV['USER']
 target_directory = "/Users/#{user}/dotfiles/"
-backup directory = /Users/#{user}/dotfiles_backup/
+backup directory = "/Users/#{user}/dotfiles_backup/"
 system("sudo mkdir #{backup_directory}")
 
 # Backup the current emacs dotfiles
