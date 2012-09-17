@@ -5,5 +5,5 @@ To initialize do the following on Mac OS:
 1. Navigate to your home directory (~/) on your machine
 2. git clone git@github.com:edmore/dotfiles.git
 3. cd dotfiles/
-4. Run ./init.rb
+4. Run ./setup.rb
 
