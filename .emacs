@@ -4,10 +4,6 @@
 (add-to-list 'load-path "~/dotfiles/.emacs.d")
 (progn (cd "~/dotfiles/.emacs.d")
        (normal-top-level-add-subdirs-to-load-path))
-;; Add the third party libraries
-(add-to-list 'load-path "~/dotfiles/.emacs.d/vendor")
-(progn (cd "~/dotfiles/.emacs.d/vendor")
-       (normal-top-level-add-subdirs-to-load-path))
 
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "~/dotfiles/.emacs.d/themes/emacs-color-theme-solarized")
