@@ -3,5 +3,6 @@ To setup:
 1. Navigate to the home directory (~/) on your machine
 2. git clone git@github.com:edmore/dotfiles.git
 3. cd dotfiles/
-4. Run bin/setup.rb
+4. bin/setup.rb
+5. Launch GNU Emacs
 
