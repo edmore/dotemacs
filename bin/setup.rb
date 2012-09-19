@@ -16,3 +16,4 @@ system("sudo mv #{home}/.emacs.d/ #{backup_directory}.emacs.d/") if File.directo
 
 # Rename dotfiles folder to .emacs.d
 system("sudo mv #{home}/dotfiles/ #{home}/.emacs.d/")
+puts "Setup complete :-) , you may navigate to [ ~/.emacs.d/ ] to view your GNU Emacs config files."
