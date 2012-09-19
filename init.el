@@ -7,7 +7,6 @@
 
 ;; Load my emacs modules
 (require 'custom)
-(require 'behaviour)
 (require 'defuns)
 
 ;; Add Solarized theme
