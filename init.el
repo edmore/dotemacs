@@ -1,12 +1,12 @@
 ;;; Edmore Moyo's GNU-Emacs config
 
 ;; Add .emacs.d folder to load path and all top level subdirectories
-(add-to-list 'load-path "~/dotfiles/.emacs.d")
-(progn (cd "~/dotfiles/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/")
+(progn (cd "~/.emacs.d/")
        (normal-top-level-add-subdirs-to-load-path))
 
 ;; Add Solarized theme
-(add-to-list 'custom-theme-load-path "~/dotfiles/.emacs.d/themes/emacs-color-theme-solarized")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
 (load-theme 'solarized-dark t)
 
 ;; Hide splash-screen and startup-message

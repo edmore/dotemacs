@@ -1,7 +1,7 @@
 To setup:
 
 1. Navigate to the home directory (~/) on your machine
-2. git clone git@github.com:edmore/dotfiles.git
-3. cd dotfiles/
-4. Run ./setup.rb
+2. git clone git@github.com:edmore/dotfiles.git .emacs.d
+3. cd .emacs.d/
+4. Run bin/setup.rb
 
