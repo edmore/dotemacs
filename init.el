@@ -6,7 +6,7 @@
        (normal-top-level-add-subdirs-to-load-path))
 
 ;; Load my emacs modules
-(require 'appearance)
+(require 'custom)
 (require 'behaviour)
 (require 'defuns)
 

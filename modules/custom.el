@@ -1,4 +1,4 @@
-;;; Appearance of Emacs
+;;; Custom Emacs Settings
 
 ;; Hide splash-screen and startup-message
 (setq inhibit-splash-screen t)
@@ -19,4 +19,4 @@
 ;; Set line numbers
 (global-linum-mode t)
 
-(provide 'appearance)
+(provide 'custom)
