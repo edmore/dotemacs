@@ -1,6 +1,6 @@
 To setup:
 
-1. Navigate to the home directory (~/) on your machine
+1. cd ~
 2. git clone git@github.com:edmore/dotfiles.git
 3. cd dotfiles/
 4. bin/setup.rb
