@@ -6,7 +6,7 @@
        (normal-top-level-add-subdirs-to-load-path))
 
 ;; Add Solarized theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
+(add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
 (load-theme 'solarized-dark t)
 
 ;; Hide splash-screen and startup-message
