@@ -12,5 +12,3 @@
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
 (load-theme 'solarized-dark t)
-
-
