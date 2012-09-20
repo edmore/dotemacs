@@ -1,4 +1,4 @@
-;;; Custom Emacs Settings
+;;; Emacs Appearance Settings
 
 ;; Hide splash-screen and startup-message
 (setq inhibit-splash-screen t)
@@ -25,4 +25,4 @@
 ;; Stop that annoying alarm bell
 (setq ring-bell-function 'ignore)
 
-(provide 'custom)
+(provide 'appearance)
