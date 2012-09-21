@@ -22,4 +22,7 @@
 ;; displays the time in the status bar
 (display-time)
 
+;; show trailing whitespace
+(setq-default show-trailing-whitespace t)
+
 (provide 'appearance)
