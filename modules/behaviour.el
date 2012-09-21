@@ -9,4 +9,8 @@
 ;; do not make backup files
 (setq make-backup-files nil)
 
+;; Maximize frame on startup
+(require 'maxframe)
+(add-hook 'window-setup-hook 'maximize-frame t)
+
 (provide 'behaviour)

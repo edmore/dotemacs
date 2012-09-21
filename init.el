@@ -9,9 +9,6 @@
 (require 'appearance)
 (require 'defuns)
 (require 'behaviour)
-(require 'maxframe)
-;; Maximize frame
-(add-hook 'window-setup-hook 'maximize-frame t)
 
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
