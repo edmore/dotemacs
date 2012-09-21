@@ -8,6 +8,7 @@
 ;; Load my emacs modules
 (require 'appearance)
 (require 'defuns)
+(require 'behaviour)
 
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")

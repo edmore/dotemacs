@@ -19,10 +19,7 @@
 ;; Set line numbers
 (global-linum-mode t)
 
-;; Change yes or no prompt to y or n
-(fset 'yes-or-no-p 'y-or-n-p)
-
-;; Stop that annoying alarm bell
-(setq ring-bell-function 'ignore)
+;; displays the time in the status bar
+(display-time)
 
 (provide 'appearance)
