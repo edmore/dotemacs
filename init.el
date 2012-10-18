@@ -9,6 +9,7 @@
 (require 'appearance)
 (require 'defuns)
 (require 'behaviour)
+(require 'keybindings)
 
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
