@@ -10,6 +10,7 @@
 (require 'defuns)
 (require 'behaviour)
 (require 'keybindings)
+(require 'clojure-mode)
 
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
