@@ -25,4 +25,9 @@
 ;; show trailing whitespace
 (setq-default show-trailing-whitespace t)
 
+;; Display full pathname for files.
+(add-hook 'find-file-hooks
+          '(lambda ()
+             (setq mode-line-buffer-identification 'buffer-file-truename)))
+
 (provide 'appearance)

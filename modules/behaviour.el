@@ -13,4 +13,7 @@
 (require 'maxframe)
 (add-hook 'window-setup-hook 'maximize-frame t)
 
+;; Use only spaces (no tabs at all).
+(setq-default indent-tabs-mode nil)
+
 (provide 'behaviour)
