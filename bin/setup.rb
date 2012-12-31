@@ -21,4 +21,4 @@ cmds << "sudo mv #{home}/dotemacs/ #{home}/.emacs.d/"
 cmds << "git submodule update --init"
 
 system cmds.join("&&")
-puts "Setup complete :-) , you may navigate to [ ~/.emacs.d/ ] to view your GNU Emacs config files."
+puts "Setup complete :-)"
