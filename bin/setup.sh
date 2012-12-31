@@ -5,7 +5,7 @@
 # Author - www.edmoremoyo.com
 ##########################################################
 
-export BACKUP_DIR=$HOME/.emacs.d_backup
+BACKUP_DIR=$HOME/.emacs.d_backup
 DATE=$(date +"%Y%m%d%H%M")
 
 if [ -e $HOME/.emacs -o -d $HOME/.emacs.d/ ]; then
