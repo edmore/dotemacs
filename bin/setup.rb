@@ -15,7 +15,7 @@ cmds << "sudo mkdir -p #{backup_directory}" if (old_emacs_file || old_emacs_fold
 # Backup the current emacs dotfiles if they exist
 cmds << "sudo mv #{home}/.emacs #{backup_directory}" if old_emacs_file
 cmds << "sudo mv #{home}/.emacs.d/ #{backup_directory}.emacs.d/" if old_emacs_folder
-# Rename dotfiles folder to .emacs.d
+# Rename dotemacs folder to .emacs.d
 cmds << "sudo mv #{home}/dotemacs/ #{home}/.emacs.d/"
 # update submodules
 cmds << "git submodule update --init"
