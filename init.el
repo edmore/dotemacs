@@ -11,7 +11,7 @@
 (require 'behaviour)
 (require 'keybindings)
 (require 'clojure-mode)
-;; Add magit for interacting with Git
+;; magit for interacting with Git
 (require 'magit)
 
 ;; Add Solarized theme
