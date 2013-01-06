@@ -11,6 +11,8 @@
 (require 'behaviour)
 (require 'keybindings)
 (require 'clojure-mode)
+;; Add magit for interacting with Git
+(require 'magit)
 
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
