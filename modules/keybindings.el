@@ -10,7 +10,7 @@
 ;; switching between buffers
 (global-set-key (kbd "C-<tab>") 'next-buffer)
 (global-set-key (kbd "C-S-<tab>") 'previous-buffer)
-;; Magit-status shortcut key
+;; magit-status shortcut key
 (global-set-key (kbd "C-x g") 'magit-status)
 
 (provide 'keybindings)
