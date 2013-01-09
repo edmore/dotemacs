@@ -18,10 +18,3 @@
 ;; Add Solarized theme
 (add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
 (load-theme 'solarized-dark t)
-
-;; add executables path - for aspell
-(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
-(setq exec-path (append exec-path '("/usr/local/bin")))
-;; enable flyspell mode for TeX mode
-(add-hook 'tex-mode-hook 'turn-on-flyspell)
-(add-hook 'latex-mode-hook 'turn-on-flyspell)
