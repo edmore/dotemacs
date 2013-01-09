@@ -24,13 +24,17 @@ if [ -e $HOME/.emacs -o -d $HOME/.emacs.d/ ]; then
 fi
 
 # Setup aspell for spellchecking
+echo "Installing aspell ..."
 cd vendor/
 curl ftp://ftp.gnu.org/gnu/aspell/aspell-0.60.6.tar.gz | tar xz &&\
 cd aspell-0.60.6 && ./configure && make && sudo make install
+cd .. # back to vendor directory ..
 curl ftp://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-6.0-0.tar.bz2 | tar xj &&\
 cd aspell6-en-6.0-0 && ./configure && make && sudo make install
-cd ..
+cd $HOME/dotemacs/
 
 sudo mv $HOME/dotemacs/ $HOME/.emacs.d
+
+echo "Updating submodules ..."
 git submodule update --init
 echo "Setup complete :-)"
