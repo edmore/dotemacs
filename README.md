@@ -6,5 +6,5 @@ To setup:
 4. bin/setup.sh
 5. Launch GNU Emacs
 
-
+--------------------------------------
 NB:  run `git pull` for updates
