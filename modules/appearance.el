@@ -7,11 +7,10 @@
 
 ;; remove the menu bar, toolbar and scrollbars
 (if window-system
-    (tool-bar-mode -1))
-(if window-system
-    (scroll-bar-mode -1))
-(if window-system
-    (menu-bar-mode -1))
+    (progn
+      (tool-bar-mode -1)
+      (scroll-bar-mode -1)
+      (menu-bar-mode -1)))
 
 ;; set column number mode
 (column-number-mode t)
@@ -21,7 +20,7 @@
 
 ;; Set line numbers
 (if window-system
-(global-linum-mode t))
+    (global-linum-mode t))
 
 ;; displays the time in the status bar
 (display-time)
