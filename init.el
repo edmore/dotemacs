@@ -16,5 +16,7 @@
 (require 'clojure-mode)
 
 ;; Add Solarized theme
-(add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized")
-(load-theme 'solarized-dark t)
+(if window-system
+(add-to-list 'custom-theme-load-path "themes/emacs-color-theme-solarized"))
+(if window-system
+(load-theme 'solarized-dark t))
