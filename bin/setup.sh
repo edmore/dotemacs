@@ -34,7 +34,7 @@ cd aspell6-en-6.0-0 && ./configure && make && sudo make install
 cd $HOME/dotemacs/
 
 # Setup markdown
-echo "Setting up markdown"
+echo "Setting up markdown ..."
 sudo ln -s ~/.emacs.d/vendor/Markdown.pl /usr/local/bin/markdown
 
 sudo mv $HOME/dotemacs/ $HOME/.emacs.d
