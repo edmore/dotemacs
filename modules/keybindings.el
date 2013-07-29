@@ -12,5 +12,7 @@
 (global-set-key (kbd "C-S-<tab>") 'previous-buffer)
 ;; magit-status shortcut key
 (global-set-key (kbd "C-x g") 'magit-status)
+;; find-file-in-project shortcut key
+(global-set-key (kbd "C-x f") 'find-file-in-project)
 
 (provide 'keybindings)
