@@ -23,4 +23,7 @@
 (add-hook 'tex-mode-hook 'turn-on-flyspell)
 (add-hook 'latex-mode-hook 'turn-on-flyspell)
 
+;;format Go code on save
+(add-hook 'before-save-hook #'gofmt-before-save)
+
 (provide 'behaviour)
